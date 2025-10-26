@@ -26,8 +26,7 @@ export default async function Home() {
 
         <div className="text-center max-w-xl flex flex-col items-center justify-center">
           <p className="mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse maxime
-            quae numquam possimus dolor. Illum, ipsam laudantium. Reprehenderit
+        Manage your hospital operations, patient records, and more with our powerful hospital management system.
           </p>
 
           <div className="flex gap-4">
@@ -41,7 +40,7 @@ export default async function Home() {
             ) : (
               <>
                 <Link href="/sign-up">
-                  <Button className="md:text-base font-light">
+                  <Button className="md:text-base  font-medium">
                     New Patient
                   </Button>
                 </Link>
