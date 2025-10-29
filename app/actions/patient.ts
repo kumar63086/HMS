@@ -1,7 +1,6 @@
 "use server";
 
-
-import { db } from "@/lib/db";
+import {db} from "@/lib/db";
 import { PatientFormSchema } from "@/lib/schema";
 import { clerkClient } from "@clerk/nextjs/server";
 

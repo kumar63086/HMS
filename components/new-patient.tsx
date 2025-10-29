@@ -126,7 +126,7 @@ export const NewPatient = ({ data, type }: DataProps) => {
   return (
     <Card className="max-w-6xl w-full p-4 ">
       <CardHeader>
-        <CardTitle>Patient Registration</CardTitle>
+        <CardTitle className="font-bold">Patient Registration</CardTitle>
         <CardDescription>
           Please provide all the information below to help us understand better
           and provide good and quality service to you.
