@@ -39,10 +39,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 <img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/c976b7b6-ae25-4154-a7f8-fe8b92b653d4" />
 
-<img width="1893" height="961" alt="Screenshot 2025-07-03 222430" src="https://github.com/user-attachments/assets/3ae58d55-6e81-42a8-a00a-b48cfd31832b" />
-<img width="1862" height="918" alt="Screenshot 2025-07-03 222443" src="https://github.com/user-attachments/assets/1f387d03-5393-4d33-8ffb-c5a33b5d7471" />
-
-
 
 
 
