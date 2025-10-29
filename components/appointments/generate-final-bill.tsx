@@ -7,7 +7,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
 
-import { generateBill } from "@/app/actions/medical";
+
 import { PaymentSchema } from "@/lib/schema";
 import { z } from "zod";
 import { CustomInput } from "../custom-input";
@@ -20,6 +20,7 @@ import {
   DialogTrigger,
 } from "../ui/dialog";
 import { Form } from "../ui/form";
+import { generateBill } from "@/app/actions/medical";
 
 interface DataProps {
   id?: string | number;

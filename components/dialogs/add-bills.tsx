@@ -23,6 +23,7 @@ import { Form } from "../ui/form";
 import { CustomInput } from "../custom-input";
 import { addNewBill } from "@/app/actions/medical";
 
+
 interface DataProps {
   id?: string | number;
   appId?: string | number;
@@ -31,7 +32,8 @@ interface DataProps {
 export const AddBills = ({ id, appId, servicesData }: DataProps) => {
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
-  const [data, setData] = useState<any>();
+  const [data, setData] = useState<any>()
+
 
   const form = useForm<z.infer<typeof PatientBillSchema>>({
     resolver: zodResolver(PatientBillSchema),

@@ -10,6 +10,7 @@ import { Separator } from "../ui/separator";
 import { AddBills } from "../dialogs/add-bills";
 import { GenerateFinalBills } from "./generate-final-bill";
 
+
 const columns = [
   {
     header: "No",

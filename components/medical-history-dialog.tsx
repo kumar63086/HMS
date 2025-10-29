@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import React from "react";
+import { DiagnosisContainer } from "./appointments/diagnosis-container";
 
 interface DataProps {
   id: string | number;
@@ -26,11 +27,11 @@ export const MedicalHistoryDialog = async ({
         </Button>
       </DialogTrigger>
       <DialogContent className="max-h-[90%] max-w-[425px] md:max-w-2xl 2xl:max-w-4xl p-8 overflow-y-auto">
-        {/* <DiagnosisContainer
+        <DiagnosisContainer
           id={id}
           patientId={patientId!}
           doctor_id={doctor_id!}
-        /> */}
+        />
 
         <p>Diagnosis container form</p>
       </DialogContent>

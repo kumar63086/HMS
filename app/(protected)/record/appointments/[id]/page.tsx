@@ -1,11 +1,19 @@
-import { AppointmentDetails } from "@/components/appointment/appointment-details";
-import AppointmentQuickLinks from "@/components/appointment/appointment-quick-links";
-import { BillsContainer } from "@/components/appointment/bills-container";
-import ChartContainer from "@/components/appointment/chart-container";
-import { DiagnosisContainer } from "@/components/appointment/diagnosis-container";
-import { PatientDetailsCard } from "@/components/appointment/patient-details-card";
-import { PaymentsContainer } from "@/components/appointment/payment-container";
-import { VitalSigns } from "@/components/appointment/vital-signs";
+
+import { AppointmentDetails } from "@/components/appointments/appointment-details";
+import AppointmentQuickLinks from "@/components/appointments/appointment-quick-links";
+
+import { BillsContainer } from "@/components/appointments/bills-container";
+
+import ChartContainer from "@/components/appointments/chart-container";
+
+import { DiagnosisContainer } from "@/components/appointments/diagnosis-container";
+
+import { PatientDetailsCard } from "@/components/appointments/patient-details-card";
+
+import { PaymentsContainer } from "@/components/appointments/payment-container";
+
+import { VitalSigns } from "@/components/appointments/vital-signs";
+
 import { MedicalHistoryContainer } from "@/components/medical-history-container";
 import { getAppointmentWithMedicalRecordsById } from "@/utils/services/appointment";
 

@@ -20,6 +20,7 @@ import { CustomInput } from "../custom-input";
 import { toast } from "sonner";
 import { addDiagnosis } from "@/app/actions/medical";
 
+
 interface AddDiagnosisProps {
   patientId: string;
   doctorId: string;
