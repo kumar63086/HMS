@@ -22,11 +22,13 @@ const columns = [
     header: "Time",
     key: "time",
     className: "hidden md:table-cell",
+    
+
   },
   {
     header: "Doctor",
     key: "doctor",
-    className: "hidden md:table-cell",
+    className: "hidden md:table-cell ml-2",
   },
   {
     header: "Status",

@@ -14,7 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Healthcare Management System ",
-  description: "App description"
+  description: "A complete hospital and patient management solution",
+  icons:{
+    icon:"/favicon.ico.jpg"
+  }
 };
 
 export default function RootLayout({
